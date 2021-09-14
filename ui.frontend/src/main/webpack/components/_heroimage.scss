@@ -1,0 +1,33 @@
+.cmp-heroimage{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cmp-heroimage__image{
+    .cmp-image__image{
+        height: auto;
+        width: 100%;
+        filter: brightness(0.3);
+    }
+}
+
+.cmp-heroimage__text{
+    top: 5rem;
+    margin-left: 10rem;
+    width: 50%;
+    color: white;
+    position: absolute;
+}
+
+.cmp-heroimage__text__heading{
+    font-size: 3rem;
+    margin: 0;
+ }
+
+ .cmp-heroimage__text__preheading{
+    font-size: 2rem;
+ }
+ .cmp-heroimage__text__reply{
+    font-size: 1.2rem;
+ }
