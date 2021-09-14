@@ -4,6 +4,7 @@
     jcr:primaryType="cq:Page">
     <page-content/>
     <xf-web-variation/>
-    <who-we-are-page-template/>
     <rep:policy/>
+    <assignment-page-demo/>
+    <who-we-are-page-template/>
 </jcr:root>
