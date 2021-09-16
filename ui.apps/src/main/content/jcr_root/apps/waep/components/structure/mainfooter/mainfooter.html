@@ -1,0 +1,54 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.all @ categories=['waep.mainfooter']}"/>
+
+<div class="main">
+
+    <div class="footer">
+        <!-- Footer main -->
+        <section class="ft-main">
+          <div class="ft-main-item">
+            <h2 class="ft-title">Start the Conversation</h2>
+            <button class="btn">Contact Us</button>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">Stay Connected</h2>
+             <!-- Footer social -->
+            <section class="ft-social">
+                <ul class="ft-social-list">
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+            </section>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">Select Region</h2>
+            <select name="region" id="region" class="ft-select">
+                <option value="us">United States</option>
+                <option value="china">China</option>
+                <option value="japan">Japan</option>
+                <option value="uk">United Kingdom</option>
+            </select>
+        </div>
+        </section>
+       
+        <section class="ft-middle">
+            <ul class="ft-services">
+              <li><a href="#">Consumer Info</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Ad Choices</a></li>
+              <li><a href="#">Do Not Sell My Personal Information</a></li>
+            </ul>
+        </section>
+
+        <!-- Footer legal -->
+        <section class="ft-bottom">
+          <span class="ft-bottom-stmt">
+            &copy; 2021 Epsilon  Management, LLC. All rights reserved. All names and logos 
+                are trademarks or registered trademarks of their respective owners.
+            </span>
+        </section>
+      </div>
+ 
+ </div>

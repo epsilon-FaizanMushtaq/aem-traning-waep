@@ -1,0 +1,152 @@
+@import "./fontawesome/less/fontawesome";
+@import "./fontawesome/less/solid";
+@import "./fontawesome/less/brands";
+
+.main {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+    position:absolute;
+    left:0;
+    bottom:0;
+     *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        font-family: ’Lato’, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+}
+    .footer {
+        background-color: rgb(5, 5, 5);
+        color: #bbb;
+        line-height: 1.5;
+        a {
+            text-decoration: none;
+            color: #eee;
+        }
+    }
+
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+
+    .ft-title {
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif, serif;
+        font-size: 1.11rem;
+        padding-bottom: 0.625rem;
+    }
+
+    .ft-main {
+        padding: 1.1rem 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ft-main-item {
+        padding: 1.25rem;
+        min-width: 12.5rem;
+    }
+
+    .btn {
+        background-color: #3d51ff;
+        color: #fff;
+        cursor: pointer;
+        border: 0;
+        padding: 1rem 1rem;
+        margin-top: 0.3125rem;
+        border-radius: 25px;
+        font-weight: bolder;
+        width: 12vw;
+    }
+        .ft-social{
+            .ft-social-list {
+                list-style: none;
+                padding-left: 0;
+                display: flex;
+                justify-content: left;
+                li {
+                    margin-right: 0.5rem;
+                    font-size: 1.05rem;
+                    border-radius: 50px;
+                    border: 2px white solid;
+                    a {
+                		text-decoration: none;
+            			color: #eee;
+                		&:hover {
+                                    text-decoration: underline;
+                                }
+                        i {
+                            padding: 1rem 1.1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+    .ft-select {
+        padding: 0.7rem 0.5rem;
+        margin-top: 0.3125rem;
+        width: 20vw;
+        background-color: rgb(5, 5, 5);
+        border: 0.001rem solid rgb(177, 174, 174);
+        color: white;
+        option {
+            color: white;
+            background-color: rgb(5, 5, 5);
+            padding: 0.1;
+            font-size: 1.1rem;
+            padding: .2rem;
+        }
+    }
+
+    .ft-middle {
+        padding: 0em 1em 0.1em 9.1em;
+
+        .ft-services {
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            justify-content: left;
+            padding-top: 1.25rem;
+            li {
+                margin: 0.5rem;
+                font-size: 1rem;
+            }
+        }
+	}
+
+    .ft-bottom {
+        padding: 0.7rem 0.1rem;
+        background-color: rgb(5, 5, 5)3;
+        margin-left: 9.6rem;
+    }
+
+    .ft-bottom-stmt {
+        display: flex;
+        color: rgb(228, 224, 224);
+        font-size: .9rem;
+    }
+
+    .ft-legal-list {
+        li {
+            &:nth-last-child(2) {
+                flex: 1;
+            }
+        }
+    }
+    @media only screen and (min-width: 29.8125rem ) {
+        .ft-main {
+            justify-content: space-around;
+        }
+    }
+    @media only screen and (min-width: 77.5rem  ) {
+        .ft-main {
+            justify-content: space-evenly;
+        }
+    }
