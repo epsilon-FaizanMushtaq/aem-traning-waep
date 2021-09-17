@@ -1,11 +1,10 @@
 <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
-     data-sly-call="${clientlib.all @ categories=['waep.beyondtext']}"/>
-<div class="main">
-    <div class="sub-main">
-          <div class="content">
-            <h2 class="title">${properties.title}</h2>
-            <p class="description">${properties.description}</p>
-            <button class="btn">Giving Back</button>
-          </div>
+     data-sly-call="${clientlib.all @ categories=['waep.beyondText']}"/>
+<div class="super_main">
+<span class="test">Anujna</span>
+    <div class="main">
+        <h2 class="title">${properties.title}</h2>
+        <span class="description">${properties.description}</span>
+        <button class="btn_give">${properties.btn_give}</button>
     </div>
-  </div>
+</div>
