@@ -1,19 +1,22 @@
 .cmp-heroimage{
     width: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .cmp-heroimage__image{
     .cmp-image__image{
-        height: auto;
         width: 100%;
         filter: brightness(0.3);
+        height: 500px;
+        object-fit: cover;
     }
 }
 
 .cmp-heroimage__text{
-    top: 5rem;
+    top: 25%;
     margin-left: 10rem;
     width: 50%;
     color: white;
@@ -26,8 +29,8 @@
  }
 
  .cmp-heroimage__text__preheading{
-    font-size: 2rem;
+    font-size: 1rem;
  }
  .cmp-heroimage__text__reply{
-    font-size: 1.2rem;
+    font-size: 1rem;
  }
