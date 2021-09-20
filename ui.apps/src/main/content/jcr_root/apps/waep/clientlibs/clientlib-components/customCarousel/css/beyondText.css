@@ -1,0 +1,41 @@
+.block-mod--white{
+            background: white;
+            width: 32rem;
+            height: 17rem;
+            top: 14rem;
+            right:12rem;
+            position: absolute;
+            padding:0.2rem;
+    }
+
+    .block-mod--white .block{
+    	margin:0rem;
+    	padding:0.2rem;
+    }
+
+	.block .block__title {
+            font-family:Arial, Helvetica, sans-serif, serif;
+            padding: 0.625rem;
+            font-size: 2.2rem;
+            margin: 0.5rem;
+        }
+
+	.block .block__description {
+    		display:block;
+            font-family:Arial, Helvetica, sans-serif, serif;
+            padding: 0.625rem;
+            font-size: 1.1rem;
+    		margin: 0.5rem;
+        }
+
+    .block .block__btn{
+   			background-color: #3d51ff;
+            color: #fff;
+            cursor: pointer;
+            border: 0;
+            padding: 0.2rem 0.1rem;
+            margin: 0 0.5rem 1rem 1rem;
+            border-radius: 25px;
+            font-weight: bolder;
+            width: 13vw;
+	}

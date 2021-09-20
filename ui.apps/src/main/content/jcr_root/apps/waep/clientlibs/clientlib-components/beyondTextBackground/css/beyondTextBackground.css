@@ -1,0 +1,12 @@
+.block-mod--img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.block-mod--img{
+    .block-mod{
+        height: auto;
+        width: 100%;
+    }
+}
