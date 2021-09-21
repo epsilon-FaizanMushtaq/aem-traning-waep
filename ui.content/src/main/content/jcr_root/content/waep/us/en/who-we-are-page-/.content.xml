@@ -17,7 +17,74 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="waep/components/container"
-                layout="responsiveGrid"/>
+                layout="responsiveGrid">
+                <heroimage
+                    jcr:created="{Date}2021-09-21T12:03:48.614+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-21T12:07:15.879+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="waep/components/heroimage"
+                    fileName="about_us_cap.png"
+                    heading="WHO WE ARE"
+                    preheading="ABOUT US"
+                    reply="Epsilon is the leader in outcome-based marketing. We have a rich, 50-year heritage in helping marketers anticipate, activate and prove measurable business outcomes.">
+                    <file/>
+                </heroimage>
+                <statistics
+                    jcr:created="{Date}2021-09-20T08:17:31.858+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-20T08:19:49.484+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="waep/components/statistics"
+                    heading="We create data-driven, enriched customer experiences focused on real people"
+                    headingDescription="Our identity-based solutions and comprehensive consumer views help brands deliver 1:1 personalization, customer value and business growth—all at massive scale."
+                    statValue1="200M+"
+                    statValue1_desc="unique individuals you can reach today"
+                    statValue2="100B"
+                    statValue2_desc="personalized emails annually"
+                    statValue3="$15T"
+                    statValue3_desc="in transactions tied to people"/>
+                <experiencefragment_1420633132
+                    jcr:created="{Date}2021-09-20T13:10:26.544+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-20T13:10:38.367+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="waep/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/waep/us/en/site/meet-our-leadership/master"/>
+                <experiencefragment
+                    jcr:created="{Date}2021-09-15T13:18:20.602+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-15T13:18:32.121+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="waep/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/waep/us/en/site/title-text-button-image/master">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="0"/>
+                    </cq:responsive>
+                </experiencefragment>
+                <experiencefragment_1568997134
+                    jcr:created="{Date}2021-09-15T13:18:37.657+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-15T13:19:04.460+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="waep/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/waep/us/en/site/title-text-button-image-2/master">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="0"/>
+                    </cq:responsive>
+                </experiencefragment_1568997134>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>
