@@ -6,14 +6,14 @@
     jcr:uuid="5e8ff8b4-2df0-4355-8fe6-3daf693b96c3">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-09-16T13:17:28.186+05:30"
+        jcr:lastModified="{Date}2021-09-20T11:32:42.615+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:ColorSpace="{Long}-1"
             dam:ExifOffset="{Long}232"
-            dam:extracted="{Date}2021-09-16T13:17:26.838+05:30"
+            dam:extracted="{Date}2021-09-20T11:32:41.156+05:30"
             dam:Fileformat="JPEG"
             dam:JpgFromRawLength="{Long}988"
             dam:JpgFromRawStart="{Long}382"
