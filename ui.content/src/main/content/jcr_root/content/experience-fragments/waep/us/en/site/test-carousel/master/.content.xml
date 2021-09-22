@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-09-21T17:30:01.510+05:30"
+        cq:lastModified="{Date}2021-09-22T11:00:03.278+05:30"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/waep/settings/wcm/templates/xf-web-variation"
@@ -66,6 +66,14 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="waep/components/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/waep/us/en/site/carousel-slide-component/master"/>
+                    <experiencefragment_1324280382
+                        jcr:created="{Date}2021-09-22T10:59:44.245+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-22T11:00:03.092+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/waep/us/en/site/carousel-slide-component/carousel_2_second"/>
                 </content>
             </horizontalscroll>
         </root>
