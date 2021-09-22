@@ -2,7 +2,7 @@
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="06b271e7-a6f3-4136-b585-643152361170">
+    jcr:uuid="d8e649d9-d9e5-414e-8be8-42aebb388ab7">
     <jcr:content
         dam:assetState="processed"
         jcr:lastModified="{Date}2021-09-20T08:11:33.174+05:30"
