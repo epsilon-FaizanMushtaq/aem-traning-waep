@@ -46,14 +46,6 @@
                     statValue2_desc="personalized emails annually"
                     statValue3="$15T"
                     statValue3_desc="in transactions tied to people"/>
-                <experiencefragment_1420633132
-                    jcr:created="{Date}2021-09-20T13:10:26.544+05:30"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-09-20T13:10:38.367+05:30"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="waep/components/experiencefragment"
-                    fragmentVariationPath="/content/experience-fragments/waep/us/en/site/meet-our-leadership/master"/>
                 <experiencefragment
                     jcr:created="{Date}2021-09-15T13:18:20.602+05:30"
                     jcr:createdBy="admin"
@@ -84,6 +76,14 @@
                             width="0"/>
                     </cq:responsive>
                 </experiencefragment_1568997134>
+                <experiencefragment_1420633132
+                    jcr:created="{Date}2021-09-20T13:10:26.544+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-20T13:10:38.367+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="waep/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/waep/us/en/site/meet-our-leadership/master"/>
             </container>
         </root>
     </jcr:content>

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-09-20T13:11:25.461+05:30"
+        cq:lastModified="{Date}2021-09-22T10:44:25.200+05:30"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/waep/settings/wcm/templates/xf-web-variation"
@@ -20,7 +20,7 @@
             <container
                 jcr:created="{Date}2021-09-20T12:05:16.293+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-09-20T12:13:11.446+05:30"
+                jcr:lastModified="{Date}2021-09-22T10:44:25.026+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="waep/components/container"
