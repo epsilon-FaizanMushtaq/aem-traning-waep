@@ -1,10 +1,28 @@
 <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
      data-sly-call="${clientlib.all @ categories=['waep.horizontalScroll']}"/>
-<html>
-</head>
-<body>
+
+<sly data-sly-test="hello">
+
     <div class="block-md">
-    		<div data-sly-resource="${'content' @ resourceType='foundation/components/parsys'}" class="block"></div>
-    </div>
-</body>
-</html>
+       <div class="block" hef="#past">
+           <h1 class="block__title">Past</h1>
+           <span class="block__description">In 2019, Publicis Groupe acquired Epsilon in one of the largest 
+            	acquisitions in marketing history. The event put Epsilon at the center of operations for Publicis 
+            	around the world and set the stage for us to lead the industry in its own transformation.</span>
+        </div>
+        <div class="block">
+          <h1 class="block__title">Present</h1>
+          <span class="block__description">Positioned at the core of Publicis Groupe, Epsilon is a global
+               company with over 8,000 employees in over 40 offices around the world.</span>
+          <img/>
+        </div>
+      	<div class="block">
+      	  <h1 class="block__title">Future</h1>
+          <span class="block__description">Going forward, we’re dedicated to helping clients understand their
+               customers as needs and habits change during the economic recovery and beyond. We’re committed to
+               going deeper into our own transformation and leading the marketing industry in this new digital-first world.</span>
+          <img/>
+     	</div>
+	</div>
+
+</sly>

@@ -1,0 +1,15 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.all @ categories=['waep.scrollBackground']}"/>
+
+<sly data-sly-test="hello">
+	<div class="eps-panel__background">
+        <div class="eps-panel__background__trap"></div>
+        <div class="eps-panel__background__ribbons">
+            <div class="eps-panel__background__offset">
+                <div class="eps-ribbon eps-ribbon--left-top  eps-ribbon--dark   " style="right: 0px; z-index: 10;">
+                    <div class="eps-ribbon__offset eps-ribbon__offset--bottom"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</sly>

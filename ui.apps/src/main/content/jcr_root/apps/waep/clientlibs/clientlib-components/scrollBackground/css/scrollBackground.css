@@ -1,0 +1,139 @@
+/*! CSS Used from: https://www.epsilon.com/hs-fs/hub/2323601/hub_generated/template_assets/40103310593/1627427882761/parsec/_global/css/vendor/evds-style.min.css */
+
+.eps-panel__background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    right: 1%;
+    left: -1%;
+    z-index: -1;
+}
+
+.eps-panel__background__trap {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: skewX(-30deg);
+    z-index: -1;
+    transform-origin: top right;
+}
+
+.eps-panel__background__offset {
+    transform-origin: top right;
+    transform: skewX(30deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.eps-panel__background__ribbons {
+    transform-origin: top right;
+    transform: skewX(-30deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.eps-ribbon {
+    width: 128px;
+    background-color: #000;
+    transform: skewX(-30deg);
+    transform-origin: left top;
+}
+
+.eps-ribbon,
+.eps-ribbon__offset {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.eps-ribbon__offset {
+    transform: skewX(30deg);
+    left: 0;
+    right: 0;
+    transform-origin: bottom left;
+}
+
+.eps-ribbon--dark {
+    background-color: transparent;
+    border: 1px solid #e3e3ea;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+::-moz-selection {
+    background: #afcafd;
+    color: #000;
+    text-shadow: none;
+}
+
+::selection {
+    background: #afcafd;
+    color: #000;
+    text-shadow: none;
+}
+
+
+/*! CSS Used fontfaces */
+
+@font-face {
+    font-family: "lato";
+    src: url("https://use.typekit.net/af/bdde80/00000000000000000001522d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"), url("https://use.typekit.net/af/bdde80/00000000000000000001522d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"), url("https://use.typekit.net/af/bdde80/00000000000000000001522d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+    font-display: block;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url("https://use.typekit.net/af/6c7e72/000000000000000000015232/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"), url("https://use.typekit.net/af/6c7e72/000000000000000000015232/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"), url("https://use.typekit.net/af/6c7e72/000000000000000000015232/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+    font-display: block;
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url("https://use.typekit.net/af/220823/000000000000000000015231/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/220823/000000000000000000015231/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/220823/000000000000000000015231/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display: block;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url("https://use.typekit.net/af/180254/00000000000000000001522c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/180254/00000000000000000001522c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/180254/00000000000000000001522c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display: block;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url("https://use.typekit.net/af/a2df1e/00000000000000000001522a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/a2df1e/00000000000000000001522a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/a2df1e/00000000000000000001522a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+    font-display: block;
+    font-style: normal;
+    font-weight: 300;
+}

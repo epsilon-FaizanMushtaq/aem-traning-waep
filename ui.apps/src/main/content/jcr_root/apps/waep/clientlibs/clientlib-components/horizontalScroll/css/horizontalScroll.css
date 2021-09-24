@@ -1,25 +1,23 @@
-::-webkit-scrollbar{width:2px;height:2px;}
-::-webkit-scrollbar-button{width:2px;height:2px;}
-/*Horizontal Scroll*/
-
 .block-md {
-  position:absolute;
-  display:block;
-  top:150px;
-  left:10px;
-  width:100%;
-  max-width:500%;
-  margin:0;
-  background:white;
-  overflow-y:auto;
-  overflow-x:auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  z-index:1;
 }
+.block-md .block {
+    display: inline-block;
+    background:white;
+    width:900px;
+    height:400px;
+    margin:10px 120px;
+    padding:1rem;
+}
+.block .block__description{
+    max-width:50px;
+    background:black;
+    color:white;
+    padding:.5rem;
+    }
+.block .block__title{
 
-.block-md > .block{
-  display:inline-block;
-  padding:5rem;
-  background:#cab;
-  margin:10px 10px;
-  padding:25px;
-  background:#cab;
-}
+        }
