@@ -5,8 +5,8 @@
     jcr:title="Site">
     <header/>
     <footer/>
-    <waep-header/>
     <title-text-button-image/>
+    <waep-header/>
     <title-text-button-image-2/>
     <meet-our-leadership/>
 </jcr:root>

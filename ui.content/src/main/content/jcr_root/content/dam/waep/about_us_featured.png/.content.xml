@@ -3,7 +3,7 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="06b271e7-a6f3-4136-b585-643152361170">
+    jcr:uuid="d8e649d9-d9e5-414e-8be8-42aebb388ab7">
     <jcr:content
         dam:assetState="processed"
         jcr:lastModified="{Date}2021-09-20T08:11:33.174+05:30"
