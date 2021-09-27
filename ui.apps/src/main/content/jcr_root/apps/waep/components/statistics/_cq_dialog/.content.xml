@@ -80,7 +80,7 @@
                                                 fieldLabel="Stat Description"
                                                 name="./statValue1_desc"
                                                 required="{Boolean}true"/>
-                                            <statValue2
+                                             <statValue2
                                                 jcr:primaryType="nt:unstructured"
                                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                                 emptyText="Enter Stat value"
