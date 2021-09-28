@@ -1,8 +1,5 @@
-@import "./fontawesome/less/fontawesome";
-@import "./fontawesome/less/solid";
-@import "./fontawesome/less/brands";
 
-
+.footer-custom{
 * {
 	box-sizing: border-box;
 	font-family:Arial, Helvetica, sans-serif, seriff;
@@ -13,6 +10,8 @@
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+    padding:.5rem;
+
 }
 .block-footer {
 	background-color: rgb(5, 5, 5);
@@ -32,10 +31,15 @@ a {
 	padding: 1.1rem 1rem;
 	display: flex;
 	flex-wrap: wrap;
+    padding:.5rem;
+    margin-left:8rem;
+
 }
 .block-footer__item {
 	padding: 1.25rem;
 	min-width: 12.5rem;
+    margin:.5rem;
+    margin-right:3rem;
 }
 .block-footer__title {
 	color: #fff;
@@ -117,13 +121,14 @@ a {
 		}
 	}
 }
-@media only screen and (min-width: 29.8125rem ) {
-	.ft-main {
-		justify-content: space-around;
-	}
-}
-@media only screen and (min-width: 77.5rem  ) {
-	.ft-main {
-		justify-content: space-evenly;
-	}
+    @media only screen and (min-width: 29.8125rem ) {
+        .ft-main {
+            justify-content: space-around;
+        }
+    }
+    @media only screen and (min-width: 77.5rem  ) {
+        .ft-main {
+            justify-content: space-evenly;
+        }
+    }
 }
