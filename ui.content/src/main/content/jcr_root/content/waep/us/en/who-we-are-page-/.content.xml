@@ -31,6 +31,7 @@
                     jcr:lastModified="{Date}2021-09-17T18:10:16.710+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
+<<<<<<< HEAD
                     sling:resourceType="waep/components/content/beyondText"/>
                 <beyondtext_1988759176
                     jcr:created="{Date}2021-09-17T18:11:21.992+05:30"
@@ -39,6 +40,55 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="waep/components/content/beyondText"/>
+=======
+                    sling:resourceType="waep/components/statistics"
+                    heading="We create data-driven, enriched customer experiences focused on real people"
+                    headingDescription="Our identity-based solutions and comprehensive consumer views help brands deliver 1:1 personalization, customer value and business growth—all at massive scale."
+                    statValue1="200M+"
+                    statValue1_desc="unique individuals you can reach today"
+                    statValue2="100B"
+                    statValue2_desc="personalized emails annually"
+                    statValue3="$15T"
+                    statValue3_desc="in transactions tied to people"/>
+                <experiencefragment
+                    jcr:created="{Date}2021-09-15T13:18:20.602+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-15T13:18:32.121+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="waep/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/waep/us/en/site/title-text-button-image/master">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="0"/>
+                    </cq:responsive>
+                </experiencefragment>
+                <experiencefragment_1568997134
+                    jcr:created="{Date}2021-09-15T13:18:37.657+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-15T13:19:04.460+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="waep/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/waep/us/en/site/title-text-button-image-2/master">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="0"/>
+                    </cq:responsive>
+                </experiencefragment_1568997134>
+                <experiencefragment_1420633132
+                    jcr:created="{Date}2021-09-20T13:10:26.544+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-20T13:10:38.367+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="waep/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/waep/us/en/site/meet-our-leadership/master"/>
+>>>>>>> eeca0ce3e6960cfbb7e10b3ff27fdad70097ee9b
             </container>
         </root>
     </jcr:content>
