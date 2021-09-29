@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="a42613ea-57dd-453c-a2e8-6b070f274b72">
     <jcr:content
+        cq:name="about_us_cap.png"
+        cq:parentPath="/content/dam/waep"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-09-22T10:43:07.665+05:30"
+        jcr:lastModified="{Date}2021-09-28T15:28:29.592+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2021-09-22T10:43:06.228+05:30"
+            dam:extracted="{Date}2021-09-28T15:28:24.012+05:30"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="a94b10d4ee9638500251eef124f0062fb34c631e"
+            dam:sha1="d58174bab70deaa243725ca5dd6de73ebff04567"
             dam:size="{Long}1252707"
             dc:format="image/png"
+            dc:modified="{Date}2021-09-28T15:28:28.879+05:30"
+            jcr:lastModified="{Date}2021-09-28T15:28:28.879+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}704"

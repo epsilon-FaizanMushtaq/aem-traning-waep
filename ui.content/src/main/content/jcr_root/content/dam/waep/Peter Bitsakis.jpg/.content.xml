@@ -5,8 +5,10 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="e001cf1e-ad34-4ac5-8f04-d2fd7a2c9364">
     <jcr:content
+        cq:name="Peter Bitsakis.jpg"
+        cq:parentPath="/content/dam/waep"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-09-20T11:36:26.145+05:30"
+        jcr:lastModified="{Date}2021-09-28T15:28:30.168+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -24,6 +26,9 @@
             dam:sha1="482ce8430cf3cd180d0795c77560e752f11d5739"
             dam:size="{Long}116665"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-09-28T15:28:30.168+05:30"
+            jcr:lastModified="{Date}2021-09-28T15:28:30.166+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}400"

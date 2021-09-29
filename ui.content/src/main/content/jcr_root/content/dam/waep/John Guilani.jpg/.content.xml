@@ -5,8 +5,10 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="fc7e2555-41ca-4b59-b3d2-58fe29f31f54">
     <jcr:content
+        cq:name="John Guilani.jpg"
+        cq:parentPath="/content/dam/waep"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-09-20T08:11:21.871+05:30"
+        jcr:lastModified="{Date}2021-09-28T15:28:21.373+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -24,6 +26,9 @@
             dam:sha1="e801ad76ce68c0b5016a199af45f7aa371951ac5"
             dam:size="{Long}337605"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-09-28T15:28:21.373+05:30"
+            jcr:lastModified="{Date}2021-09-28T15:28:21.372+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}500"

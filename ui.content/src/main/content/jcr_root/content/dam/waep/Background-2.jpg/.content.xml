@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="5f978853-40bc-4d57-a583-cb82e0ace859">
     <jcr:content
+        cq:name="Background-2.jpg"
+        cq:parentPath="/content/dam/waep"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-09-15T13:16:57.175+05:30"
+        jcr:lastModified="{Date}2021-09-28T15:28:30.134+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2021-09-15T13:16:56.730+05:30"
+            dam:extracted="{Date}2021-09-28T15:28:22.400+05:30"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}144"
             dam:Physicalwidthininches="{Decimal}10.000514030456543"
             dam:Progressive="no"
-            dam:sha1="28c9fcc1e0ef92436fd2c420c3ce29365c0e818d"
+            dam:sha1="331ea106b39f0a47e7a5bdad4f27c17b7e9267bf"
             dam:size="{Long}7964"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-09-28T15:28:29.363+05:30"
+            jcr:lastModified="{Date}2021-09-28T15:28:29.362+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}807"

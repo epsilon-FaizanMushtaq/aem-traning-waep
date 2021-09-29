@@ -1,7 +1,8 @@
 .block-mod--nav{
     position absolute;
-    top:50px;
+    top:150px;
     right:60px;
+    marging-left:15rem;
 }
 
 .block-mod--nav .block-nav{
@@ -20,7 +21,7 @@
 
 .block-nav:hover{
      background-color:rgb(255,128,0);
-     width:6rem;
+     width:10rem;
      height:.4rem;
      cursor:pointer;
 
