@@ -2,10 +2,10 @@
             background: white;
             width: 32rem;
             height: 17rem;
-            top: 14rem;
-            right:12rem;
-            position: absolute;
             padding:0.2rem;
+    		position:relative;
+    		bottom:65rem;
+    		right:3rem;
     }
 
     .block-mod--white .block{
@@ -39,3 +39,15 @@
             font-weight: bolder;
             width: 13vw;
 	}
+@media only screen and (min-width: 600px) {
+    .block-mod--white{
+            background: white;
+            width: 32rem;
+            height: 17rem;
+            right:12rem;
+            padding:0.2rem;
+    		position:absolute;
+    		bottom:67rem;
+    		right:13rem;
+    }
+}
