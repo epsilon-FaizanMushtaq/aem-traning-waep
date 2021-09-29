@@ -20,5 +20,7 @@
     <community-components/>
     <we-retail/>
     <wknd-events/>
+    <cq:graphql/>
     <waep/>
+    <wae/>
 </jcr:root>
