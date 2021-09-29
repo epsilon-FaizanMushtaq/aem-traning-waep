@@ -1,10 +1,16 @@
 <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
      data-sly-call="${clientlib.all @ categories=['waep.beyondText']}"/>
-<div class="super_main">
-<span class="test">Anujna</span>
-    <div class="main">
-        <h2 class="title">${properties.title}</h2>
-        <span class="description">${properties.description}</span>
-        <button class="btn_give">${properties.btn_give}</button>
+
+<sly data-sly-test="${wcmmode.edit||wcmmode.design}">
+<p>Configure the text component</p></sly>
+
+<sly data-sly-test="${properties.title}">
+
+    <div class="block-mod--white">
+        <div class="block">
+            <h2 class="block__title">${properties.title}</h2>
+            <span class="block__description">${properties.description}</span>
+            <button class="block__btn">${properties.context}</button>
+        </div>
     </div>
-</div>
+</sly>
