@@ -5,10 +5,8 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="50399854-f18c-4fe6-9c73-ee7dd51416dd">
     <jcr:content
-        cq:name="MeetOurLeadershipBackground.jpg"
-        cq:parentPath="/content/dam/waep"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-09-28T15:28:26.822+05:30"
+        jcr:lastModified="{Date}2021-09-20T12:12:42.519+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -26,9 +24,6 @@
             dam:sha1="1ebdc6eaba2862e244cc3a25960d4d4ea05963ab"
             dam:size="{Long}28699"
             dc:format="image/jpeg"
-            dc:modified="{Date}2021-09-28T15:28:26.822+05:30"
-            jcr:lastModified="{Date}2021-09-28T15:28:26.821+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}807"

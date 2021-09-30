@@ -71,13 +71,13 @@
                     displayPopupTitle="true"
                     fileName="About-us-cropped_2.JPG"
                     isDecorative="false">
+                    <file/>
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
                             width="5"/>
                     </cq:responsive>
-                    <file/>
                 </image>
                 <button
                     jcr:created="{Date}2021-09-15T12:55:40.229+05:30"

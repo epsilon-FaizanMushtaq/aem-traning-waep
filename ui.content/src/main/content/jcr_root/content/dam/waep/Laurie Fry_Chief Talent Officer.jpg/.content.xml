@@ -5,10 +5,8 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="0400be53-4ef6-487c-9da3-c73f28279ae1">
     <jcr:content
-        cq:name="Laurie Fry_Chief Talent Officer.jpg"
-        cq:parentPath="/content/dam/waep"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-09-28T15:28:27.848+05:30"
+        jcr:lastModified="{Date}2021-09-20T11:36:24.720+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -26,9 +24,6 @@
             dam:sha1="b9e717ed494fb25a9a24d43fe4d4922b51138425"
             dam:size="{Long}74030"
             dc:format="image/jpeg"
-            dc:modified="{Date}2021-09-28T15:28:27.848+05:30"
-            jcr:lastModified="{Date}2021-09-28T15:28:27.847+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}240"

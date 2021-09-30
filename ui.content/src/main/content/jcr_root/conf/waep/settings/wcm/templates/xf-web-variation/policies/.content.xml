@@ -2,9 +2,9 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-09-29T10:55:20.087+05:30"
+        cq:lastModified="{Date}2021-09-14T17:09:21.532+05:30"
         cq:lastModifiedBy="admin"
-        cq:policy="waep/components/page/policy"
+        cq:policy="waep/components/xfpage/policy_1631617172791"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
@@ -37,8 +37,16 @@
             </mysite>
             <waep jcr:primaryType="nt:unstructured">
                 <components jcr:primaryType="nt:unstructured">
+                    <text
+                        cq:policy="waep/components/text/policy_1134024116461200"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
                     <container
-                        cq:policy="waep/components/container/policy_1795767417974900"
+                        cq:policy="waep/components/container/policy_1134116482863600"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                    <button
+                        cq:policy="waep/components/button/policy_1631617694459"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                 </components>
