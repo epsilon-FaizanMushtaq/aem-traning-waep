@@ -3,17 +3,15 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="f40fffbd-dffe-4192-8c58-b185bf714957">
+    jcr:uuid="3321343e-7912-479e-9c58-10296621e613">
     <jcr:content
-        cq:name="Background-1.jpg"
-        cq:parentPath="/content/dam/waep"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-09-28T15:28:29.604+05:30"
+        jcr:lastModified="{Date}2021-09-20T08:11:48.525+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-09-28T15:28:28.594+05:30"
+            dam:extracted="{Date}2021-09-20T08:11:47.961+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -23,12 +21,9 @@
             dam:Physicalwidthindpi="{Long}144"
             dam:Physicalwidthininches="{Decimal}10.0"
             dam:Progressive="no"
-            dam:sha1="60ac36124a86cb1d2d4983dea99e41d15b17d026"
+            dam:sha1="655b20227dcd521872f969465ee37ae2ff6559af"
             dam:size="{Long}33414"
             dc:format="image/jpeg"
-            dc:modified="{Date}2021-09-28T15:28:27.859+05:30"
-            jcr:lastModified="{Date}2021-09-28T15:28:27.859+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}807"

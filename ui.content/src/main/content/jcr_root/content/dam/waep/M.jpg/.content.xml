@@ -5,10 +5,8 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="8d76aa72-6cac-4eb5-a3d4-206b7b1b5641">
     <jcr:content
-        cq:name="M.jpg"
-        cq:parentPath="/content/dam/waep"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-09-28T15:28:25.588+05:30"
+        jcr:lastModified="{Date}2021-09-20T11:36:24.899+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -26,9 +24,6 @@
             dam:sha1="5f372b3edfa0248c15783affeecdde3a6aded562"
             dam:size="{Long}56568"
             dc:format="image/jpeg"
-            dc:modified="{Date}2021-09-28T15:28:25.588+05:30"
-            jcr:lastModified="{Date}2021-09-28T15:28:25.588+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}213"

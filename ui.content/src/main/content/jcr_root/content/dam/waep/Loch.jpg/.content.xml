@@ -5,10 +5,8 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="1b649705-de8f-445c-b404-0735a7bc3cd4">
     <jcr:content
-        cq:name="Loch.jpg"
-        cq:parentPath="/content/dam/waep"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-09-28T15:28:30.227+05:30"
+        jcr:lastModified="{Date}2021-09-20T11:36:24.798+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -26,9 +24,6 @@
             dam:sha1="bea8e73c64def5c919c10b469470b729fc674335"
             dam:size="{Long}62109"
             dc:format="image/jpeg"
-            dc:modified="{Date}2021-09-28T15:28:30.228+05:30"
-            jcr:lastModified="{Date}2021-09-28T15:28:30.227+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}213"

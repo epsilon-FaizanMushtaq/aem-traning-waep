@@ -5,10 +5,8 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="37e056e1-3bab-41f8-b02f-336b32c8447d">
     <jcr:content
-        cq:name="PAUL_DUNDON_24MAY2017.jpg"
-        cq:parentPath="/content/dam/waep"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-09-28T15:28:27.936+05:30"
+        jcr:lastModified="{Date}2021-09-20T11:36:25.991+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -26,9 +24,6 @@
             dam:sha1="954d8dd3d45fbfb3ae34a0ee6cb963ed25386aab"
             dam:size="{Long}68522"
             dc:format="image/jpeg"
-            dc:modified="{Date}2021-09-28T15:28:27.936+05:30"
-            jcr:lastModified="{Date}2021-09-28T15:28:27.936+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}240"
